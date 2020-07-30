@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>reverse</title>
+    </head>
+    <body>
+       <h2>Reversing The String</h2> 
+        <h3>Before reversing the string</h3>
+        <p id="Before"></p>
+        <h3>After reversing the string</h3>
+        <p id="After"></p>
+        <script>
+            var str="helloworld";
+            var split = str.split("");
+            var reverseword=split.reverse();
+            document.getElementById("Before").innerHTML=str;
+            document.getElementById("After").innerHTML=reverseword;
+        </script>
+    </body>
+</html>
